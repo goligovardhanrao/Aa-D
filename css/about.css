@@ -1,0 +1,126 @@
+.row .pageOption {
+  overflow: hidden;
+  position: relative;
+   height: 700px;
+    width: 100%;
+     
+   
+ 
+   
+}
+.option, .option img { width: 100%; height: 100%; 
+}
+
+
+.option {
+  overflow: hidden;
+  position: absolute;  
+  /* arctan(27 / 40) = 34.01935deg 
+   * need to skew by 90deg - 34.01935deg = 55.98065deg
+  */
+  transform: skewX(-55.98deg);
+     bottom: 0px;
+    height: 900px;
+
+}
+.option:first-child {
+ 
+  transform-origin: 100% 0%;
+    
+}
+.option:last-child {
+  
+  transform-origin: 0% 100%;
+    position: absolute;
+    left: -160px;
+    padding-left: -65px;
+    width:1280px;
+}
+.option img {
+  transform: skewX(55.98deg);
+  transform-origin: inherit; 
+    position: absolute;
+    left:450px;
+    top: 200px;
+   
+}
+
+
+.text
+{
+ 
+ 
+
+}
+
+.text h3
+{
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    font-size: 32px;
+}
+
+.text p
+{
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    font-size: 17px;
+    text-align: justify;
+    text-decoration: none;
+    color: black;   
+    
+}
+
+
+/*   video start    */
+.embed-responsive-item
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/*   video end   */
+
+/*   table start    */
+
+.table
+{
+    padding: 10px;
+}
+
+.table th
+
+{
+    text-align: center;
+    padding-left: 40px;
+}
+
+td
+{
+    text-align: center;
+}
+ .glyphicon
+{
+    text-align: center;
+    padding:10px; 
+        
+}
+
+.black
+{
+    background-color: black;
+    color: white;
+}
+
+
+/*   table end   */
+
+ .t
+{
+    padding: 20px;
+}
+

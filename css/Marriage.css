@@ -1,0 +1,100 @@
+h3 #hed
+{
+    color:#DB7418;
+    text-align: center;
+   padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.m-img
+{
+ width: 1220px;
+    height: 330px;
+        
+
+    
+}
+
+.m-img img
+{
+    width: 1220px;
+    height: 330px;
+    margin-left: -60px;
+    overflow: visible;
+        
+ 
+}
+
+
+
+
+
+.m-t
+{
+    position: relative;
+    top:-310px;
+    text-align: center;
+  
+    margin-left: 650px;
+  
+    left: 10px;
+    
+    right: 50px;
+     
+    color: white;
+   
+   
+}
+.m-t button
+{
+   margin-top: 10px;
+    color:#DB7418 ;
+    background-color: white;
+}
+
+.m-t h3
+{
+   
+padding: 10px;
+
+    font-size: 32px;
+}
+.m-t p
+{
+    font-size: 17px;
+    
+}
+
+.left-bg
+{
+position: absolute;
+bottom: 393px;
+    left: -60px;
+    overflow: hidden;
+   
+    
+}
+.left-bg img
+{
+    width: 400px;
+    height: 400px;
+
+}
+
+
+.right-bg
+{
+    position: absolute;
+    bottom: 200px;
+    left: 1090px;
+    bottom: 230px;
+    
+    
+}
+.right-bg img
+{
+   width: 230px;
+    height: 230px;
+   
+}
